@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
@@ -35,10 +34,7 @@ class _MainFetchDataState extends State<MainFetchData> {
       _isloading = false;
     });
 
-    //newslist = news.news;
-    // setState(() {
-    //  _loading = false;
-    //});
+
   }
 
   @override
