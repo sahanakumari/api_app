@@ -10,6 +10,7 @@ class MainFetchData extends StatefulWidget {
 }
 
 class _MainFetchDataState extends State<MainFetchData> {
+
   bool _isloading = true;
 
   List<String> newslist = List<String>();
@@ -34,7 +35,6 @@ class _MainFetchDataState extends State<MainFetchData> {
       _isloading = false;
     });
 
-
   }
 
   @override
@@ -42,6 +42,7 @@ class _MainFetchDataState extends State<MainFetchData> {
     // TODO: implement initState
     super.initState();
     getImages();
+
   }
 
   @override
@@ -72,3 +73,4 @@ class _MainFetchDataState extends State<MainFetchData> {
     );
   }
 }
+
